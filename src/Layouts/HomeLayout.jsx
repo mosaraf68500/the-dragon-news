@@ -1,26 +1,27 @@
-import React from 'react';
-import Header from '../Components/Header/Header';
-import LatestNews from '../Components/LatestNews/LatestNews';
+import React from "react";
+import Header from "../Components/Header/Header";
+import LatestNews from "../Components/LatestNews/LatestNews";
+import NavBar from "../Components/NavBar/NavBar";
 
 const HomeLayout = () => {
-    return (
-        <div>
-            <header className='w-11/12 mx-auto'>
-                <Header></Header>
-                <LatestNews ></LatestNews>
+  return (
+    <div>
+      <header>
+        <Header></Header>
+        <section className="w-11/12 mx-auto py-3">
+          <LatestNews></LatestNews>
+        </section>
 
+        <section className="w-11/12 mx-auto py-3">
+          <NavBar></NavBar>
+        </section>
+      </header>
 
-            </header>
+      <main></main>
 
-            <main>
-
-            </main>
-
-            <footer>
-
-            </footer>
-        </div>
-    );
+      <footer></footer>
+    </div>
+  );
 };
 
 export default HomeLayout;
