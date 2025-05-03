@@ -1,9 +1,10 @@
 import React from 'react';
+import SocialBtn from '../SocialBtn/SocialBtn';
 
 const RightSide = () => {
     return (
         <div>
-            right side bar
+            <SocialBtn></SocialBtn>
         </div>
     );
 };
