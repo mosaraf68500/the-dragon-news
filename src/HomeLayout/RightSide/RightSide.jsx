@@ -5,7 +5,7 @@ import Qzone from '../../Components/Qzone/Qzone';
 
 const RightSide = () => {
     return (
-        <div className='space-y-6 '>
+        <div className='space-y-6 sticky top-0 '>
             <SocialBtn></SocialBtn>
             <FindUs></FindUs>
             <Qzone></Qzone>
